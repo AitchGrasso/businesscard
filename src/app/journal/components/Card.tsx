@@ -1,10 +1,11 @@
 import Image from "next/image";
 
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
-export default function Header() {
+export default function Card() {
   return (
     <div className="flex flex-col text-center ">
       <h1 className="font-thin">H. Grasso </h1>
